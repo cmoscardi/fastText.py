@@ -30,7 +30,7 @@ extensions = [
 
 # Package details
 setup(
-    name='fasttext',
+    name='fasttext_win',
     version='0.8.3',
     author='Bayu Aldi Yansyah',
     author_email='bayualdiyansyah@gmail.com',
