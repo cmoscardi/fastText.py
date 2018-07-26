@@ -13,6 +13,8 @@ install:
   # We need wheel installed to build wheels
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install -r requirements.txt"
+  - "conda config --add channels conda-forge --force"
+  - "conda install -y lapack"
 
 build: off
 
